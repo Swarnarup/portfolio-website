@@ -73,10 +73,10 @@ const Aboutsection = () => {
   return (
     <section className='text-white' id='About_Section'>
         <motion.div initial={{opacity:0, scale: 1.5}} animate={{opacity:1, scale: 1}} transition={{ease: "easeIn", duration:1}} className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-            <Image src="/images/face.jpg" alt='my image' width={500} height={500} className="rounded-md"></Image>
+            <Image src="images/face.jpg" alt='my image' width={500} height={500} className="rounded-md"></Image>
             <div>
                 <h2 className='text-4xl font-bold text-secondary-500 mb-4 mt-8'>About Me</h2>
-                <p className='text-base lg:text-lg'>I'm dedicated CSE student currently pursuing my B.Tech degree with a passion for software, front-end, designing and Game development. My interests extend to the realms of art, geometry and technology reflecting a diverse range of creative and analytical pursuits. I have adaptability and quick learning abilities in my arsenal. Due to my collaborative nature, I excel in team environments. My strong time management skills ensure efficient project execution, while my effective communication skills facilitate seamless collaboration with team menbers and clients alike.</p>
+                <p className='text-base lg:text-lg'>I&apos;m dedicated CSE student currently pursuing my B.Tech degree with a passion for software, front-end, designing and Game development. My interests extend to the realms of art, geometry and technology reflecting a diverse range of creative and analytical pursuits. I have adaptability and quick learning abilities in my arsenal. Due to my collaborative nature, I excel in team environments. My strong time management skills ensure efficient project execution, while my effective communication skills facilitate seamless collaboration with team menbers and clients alike.</p>
                 <div className="flex flex-row justify-start mt-8">
                     <Tabbutton selectTab={()=>handleTabChanges("education")} active={tab==="education"}>
                         {" "}

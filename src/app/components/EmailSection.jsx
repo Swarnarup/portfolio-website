@@ -10,10 +10,10 @@ const EmailSection = () => {
   return (
     <section className='grid md:grid-cols-2 my-12 md:my12 py-24 gap-4 relative' id='Email_Section'>
         <div className='z-10'>
-            <h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
+            <h5 className='text-xl font-bold text-white my-2'>Let&apos;s Connect</h5>
             <p className='text-[#ADB7BE] mb-4 max-w-md'>
                 {" "}
-                I'm an independent developer mostly open for remote projects. I'm available in many social platforms. You can respond in this given form also which will be stored in a google sheet. But for quicker response reach out to me through email, phone or LinkedIn.
+                I&apos;m an independent developer mostly open for remote projects. I&apos;m available in many social platforms. You can respond in this given form also which will be stored in a google sheet. But for quicker response reach out to me through email, phone or LinkedIn.
             </p>
             <div className='socials flex flex-row gap-4'>
                 <GsapMagnetic>
