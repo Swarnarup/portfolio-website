@@ -9,7 +9,7 @@ import GsapMagnetic from './GsapMagnetic';
 const HeroSection = () => {
   return (
     <section className="xl:px-16">
-        <motion.div initial={{opacity:0, scale: 1.5}} animate={{opacity:1, scale: 1}} transition={{ease:"easeIn", duration:1}} className="grid grid-cols-1 sm:grid-cols-12">
+        <motion.div initial={{opacity:0, scale: 1.1}} animate={{opacity:1, scale: 1}} className="grid grid-cols-1 sm:grid-cols-12">
             <div transition={{duration: .5}} className="col-span-7 place-self-center text-center sm:text-left">
                 <h1 className="text-white mb-4 text-4xl lg:text-6xl sm:text-5xl font-extrabold">
                     <span className='text-transparent bg-clip-text bg-gradient-to-br from-primary-500 to-secondary-400'>Hi, I&apos;m{""}</span>

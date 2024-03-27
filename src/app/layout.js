@@ -11,9 +11,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="overflow-hidden">
+    <html lang="en">
       <body className={inter.className}>
         <SmoothScroll>{children}</SmoothScroll>
+        {/* {children} */}
       </body>
     </html>
   );
